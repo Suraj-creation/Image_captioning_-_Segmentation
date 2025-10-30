@@ -74,7 +74,7 @@ def render_header():
         st.markdown("*Deep Learning on COCO 2014 Dataset*")
     
     with col3:
-        st.markdown("[GitHub](https://github.com/Brunda292005/Image_Captioning.git) | [Docs](#)")
+        st.markdown("")
 
 
 def render_landing_page():
@@ -149,25 +149,16 @@ def render_landing_page():
     
     # Links section
     st.markdown("### 📚 Project Resources")
-    col1, col2, col3 = st.columns(3)
+    col1, col2 = st.columns(2)
     
     with col1:
-        st.markdown("""
-        **GitHub Repositories**
-        - [Captioning - Brunda](https://github.com/Brunda292005/Image_Captioning.git)
-        - [Segmentation - Brunda](https://github.com/Brunda292005/Image_-Segmentation.git)
-        - [Captioning - Jaromi](https://github.com/jaromi-joe/Image_captioning.git)
-        - [Segmentation - Jaromi](https://github.com/jaromi-joe/Image_segmentation.git)
-        """)
-    
-    with col2:
         st.markdown("""
         **Documentation**
         - [Project Report (Google Drive)](https://drive.google.com/drive/folders/1BlmuI3Yq_AmwrTH3p1fxJ1-_Y_2p7OA-)
         - [Web App Demo](https://drive.google.com/drive/folders/1BlmuI3Yq_AmwrTH3p1fxJ1-_Y_2p7OA-)
         """)
     
-    with col3:
+    with col2:
         st.markdown("""
         **References**
         - [COCO Dataset](https://cocodataset.org/)
