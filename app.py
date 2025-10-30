@@ -137,11 +137,6 @@ def render_landing_page():
         """)
         
         st.markdown("""
-        **Team Members**
-        
-        - Brunda B
-        - Jaromi D
-        
         **Submitted to:** Chandan Mishra
         """)
     
