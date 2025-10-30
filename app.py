@@ -141,24 +141,6 @@ def render_landing_page():
         """)
     
     st.markdown("---")
-    
-    # Links section
-    st.markdown("### 📚 Project Resources")
-    col1, col2 = st.columns(2)
-    
-    with col1:
-        st.markdown("""
-        **Documentation**
-        - [Project Report (Google Drive)](https://drive.google.com/drive/folders/1BlmuI3Yq_AmwrTH3p1fxJ1-_Y_2p7OA-)
-        - [Web App Demo](https://drive.google.com/drive/folders/1BlmuI3Yq_AmwrTH3p1fxJ1-_Y_2p7OA-)
-        """)
-    
-    with col2:
-        st.markdown("""
-        **References**
-        - [COCO Dataset](https://cocodataset.org/)
-        - [NLP Literature Review](https://www.researchgate.net/publication/381295446)
-        """)
 
 
 def render_image_upload():
